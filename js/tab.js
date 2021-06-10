@@ -1,0 +1,1 @@
+function CreateTab(s){this.lis=s.querySelectorAll("li"),this.hs=s.querySelectorAll("h1"),this.init()}CreateTab.prototype.init=function(){for(let s=0;s<this.lis.length;s++)this.lis[s].onclick=()=>{for(let s=0;s<this.lis.length;s++)this.lis[s].className="",this.hs[s].className="";this.lis[s].className="bg",this.hs[s].className="show"}};
